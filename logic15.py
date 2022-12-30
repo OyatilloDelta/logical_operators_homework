@@ -6,4 +6,10 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    j=a//100
+    s=a%100
+    d=s//10
+    t=s%10
+    l=(d+t+j)==0
+    return l
+print(main(222))
