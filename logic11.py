@@ -6,4 +6,6 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x=99<a<999
+    return x
+print(main(456))
