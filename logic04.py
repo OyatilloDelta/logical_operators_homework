@@ -7,6 +7,7 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    sf=a/2 and b/2
-    return sf 
-print(main(4,8))
+    x1=a%2==0
+    x2=b%2==0
+    return x1 and x2 
+print(main(4,6))
